@@ -8,17 +8,19 @@ Steps for conversion:
 
 ```bash
 $ conda env create -f pdbqt2sdf.yml
+```
 
 2. Make the shell script executable
 
 ```bash
 $ chmod +x pdbqt2sdf_conversion.sh
-
+```
 
 3. Run the conversion
 
 ```bash
 $ bash pdbqt2sdf_conversion.sh <path_to_pdbqt_directory>
+```
 
 The script will convert all pdbqt ligands found in the specified directory into sdf format.
 
